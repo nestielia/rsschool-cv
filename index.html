@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ernesta Kairyte</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+<script src="./script.js"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <div class="sidebars">
+                <div class="left-sidebar">
+                    <header id="header">
+                        <img src="./Images/mypic.jpg" alt="portait">
+                        <h1>Ernesta Kairyte</h1>
+                        <h4>Front-End Development Student</h4>
+                    </header>
+                    <div class="icons">
+                        <section class="contacts">
+                            <h2>Contacts</h2>
+                            <ul>
+                                <li>
+                                    <img src="./Images/phone-svgrepo-com(1).svg" alt="Phone-icon">
+                                    <p>+353 85 742 5548</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/email-svgrepo-com.svg" alt="Email-icon">
+                                    <a href="mailto:ernesta.kairyte@yahoo.com">ernesta.kairyte@yahoo.com</a>
+                                </li>
+                                <li>
+                                    <img src="./Images/linkedin-svgrepo-com.svg" alt="Linkedin-icon">
+                                    <a href="https://www.linkedin.com/in/ernestakairyte/">Linkedin</a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="skills">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>
+                                    <img src="./Images/html-svgrepo-com.svg" alt="html-icon">
+                                    <p>HTML5</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/css3-svgrepo-com.svg" alt="css-icon">
+                                    <p>CSS3</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/js-svgrepo-com.svg" alt="js-logo">
+                                    <p>Javascript</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/git-svgrepo-com.svg" alt="git-icon">
+                                    <p>Git</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/github-svgrepo-com.svg" alt="github-icon">
+                                    <p>GitHub</p>
+                                </li>
+                                <li>
+                                    <img src="./Images/vscode-fill-svgrepo-com.svg" alt="vs-icon">
+                                    <p>VS Code</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="project">
+                            <h2>Project example</h2>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <img src="./Images/task-svgrepo-com.svg" alt="task-image">
+                                        <a href="#header">My CV</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <section class="about-me">
+                        <h2>About Me</h2>
+                        <p>I would like to change my career and move to the technology sector. I have a genuine interest
+                            in
+                            it,
+                            how
+                            code works and what it does, etc. I have been doing courses online on my own pace, but I'd
+                            like
+                            to
+                            get
+                            hands on projects in real life and learn even more!</p>
+                        <p>Let's learn!</p>
+                    </section>
+                    <section class="courses">
+                        <h2>Courses</h2>
+                        <p>Codecademy</p>
+                        <ul>
+                            <li>Learn HTML</li>
+                            <li>Learn CSS</li>
+                            <li>Learn Javascript</li>
+                            <li>Front-end Engineer Path</li>
+                            <li>Learn Command Line</li>
+                            <li>Learn Git &amp; Github</li>
+                            <li>The Web Developer Bootcamp - Udemy</li>
+                            <li>Javascript/Front-end Mentoring Program - RS School</li>
+                        </ul>
+                    </section>
+                    <section class="code-example">
+                        <h2>Code example</h2>
+                        <h4>Rock, Paper, Scissors game</h4>
+                        <pre>
+                            <code>
+                                const getUserChoice = userInput => {
+                                    userInput = userInput.toLowerCase();
+                                    if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
+                                      return userInput;
+                                    } else {
+                                      console.log('Error');
+                                    }
+                                  }
+                                  function getComputerChoice () {
+                                    const randomNumber = Math.floor(Math.random() * 3);
+                                    switch (randomNumber) {
+                                      case 0:
+                                      return 'rock';
+                                      break;
+                                      case 1:
+                                      return 'paper';
+                                      break;
+                                      case 2:
+                                      return 'scissors';
+                                      break;
+                                      default:
+                                      return 'Error';
+                                      break;
+                                    }
+                                  }
+                                  function determineWinner (userChoice, computerChoice) {
+                                    if (userChoice === computerChoice) {
+                                      return 'The game was a tie';
+                                    }
+                                    if (userChoice === 'rock') {
+                                      if (computerChoice === 'paper') {
+                                        return 'The computer won!';
+                                      } else {
+                                        return 'You won!';
+                                      }
+                                    }
+                                    if (userChoice === 'paper') {
+                                      if (computerChoice === 'scissors') {
+                                        return 'The computer won!';
+                                      } else {
+                                        return 'You won';
+                                      }
+                                    }
+                                    if (userChoice === 'scissors') {
+                                      if (computerChoice === 'rock') {
+                                        return 'You won!';
+                                      } else {
+                                        return 'The computer won!';
+                                      }
+                                    }
+                                  }
+                                  const playGame = () => {
+                                    const userChoice = getUserChoice('rock');
+                                    const computerChoice = getComputerChoice();
+                                    console.log(userChoice);
+                                    console.log(computerChoice);
+                                    console.log(determineWinner(userChoice, computerChoice));
+                                  }
+                                  playGame();
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="education">
+                        <h2>Education</h2>
+                        <h3>Dublin Business School</h3>
+                        <p>Accounting and Finance</p>
+                        <p>2018-2019</p>
+                    </section>
+                    <section class="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>Lithuanian - native</li>
+                            <li>English - intermediate</li>
+                            <li>Portuguese - basics</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <footer>
+                <a class="github-account" href="https://github.com/nestielia">
+                    <img src="./Images/github-svgrepo-com.svg" alt="github-icon">
+                    <p>Visit my GitHub</p>
+                </a>
+                <p>October, 2022</p>
+                <a class="rsschool-icon" href="https://rs.school/js-en/">
+                    <img src="./Images/logo-rsschool3.png" alt="rsschool-icon">
+                </a>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
