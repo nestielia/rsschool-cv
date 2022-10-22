@@ -46,6 +46,13 @@ I would like to change my career and move to the technology sector. I have a gen
 
 ---
 
+### Education:
+
+- Dublin Business School
+- Accounting and Finance
+
+---
+
 ### Languages:
 
 - Lithuanian - native
