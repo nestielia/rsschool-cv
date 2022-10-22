@@ -16,7 +16,8 @@
 
 ### About myself:
 
-I would like to change my career and move to the technology sector. I have a genuine interest in it, how code works and what it does, etc. I have been doing courses online on my own pace, but I'd like to get hands on projects in real life and learn even more! Let's learn!!!
+I would like to change my career and move to the technology sector. I have a genuine interest in it, how code works and what it does, etc. I have been doing courses online on my own pace, but I'd like to get hands on projects in real life and learn even more!  
+Let's learn!!!
 
 ---
 
