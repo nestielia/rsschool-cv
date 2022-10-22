@@ -1,1 +1,1 @@
-https://nestielia.github.io/rsschool-cv/
+https://nestielia.github.io/rsschool-cv/cv
