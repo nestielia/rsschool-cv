@@ -1,0 +1,214 @@
+html {
+  display: block;
+  font-size: 16px;
+}
+
+body {
+  background-color: #4e5255;
+  color: #2c365e;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+p,
+li,
+a,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  border-bottom: 2px solid;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border-bottom: 2px solid;
+  padding: 10px;
+  margin: auto 0;
+}
+
+.sidebars {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.left-sidebar {
+  width: 25%;
+}
+
+.right-sidebar {
+  width: 75%;
+}
+
+header img {
+  width: 50%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contacts {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contacts p {
+  padding: 0;
+}
+
+.skills {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.project {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.about-me {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.about-me p {
+  padding: 10px;
+}
+
+.courses {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.courses h2 {
+  margin-bottom: 10px;
+}
+
+.courses p {
+  padding: 0 10px;
+}
+
+.code-example {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.code-example h4 {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.code-example code {
+  font-size: 0.75rem;
+  align-content: center;
+}
+
+.education {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+.education h3,
+p {
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.languages {
+  background-color: #e9f7f9;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul {
+  padding: 10px;
+  margin: 0 15px;
+}
+
+li {
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
+  color: #2c365e;
+}
+
+li img {
+  width: 30px;
+  height: 30px;
+}
+
+.icons li img {
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.icons li p {
+  vertical-align: middle;
+  display: inline;
+}
+
+.icons li {
+  list-style: none;
+}
+
+footer {
+  background-color: #e9f7f9;
+  color: #2c365e;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  height: 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2c365e;
+  margin: 10px;
+}
+
+footer p {
+  margin: auto;
+}
+
+.github-account {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.github-account p {
+  text-align: center;
+  margin: 10px;
+}
+
+.rsschool-icon img {
+  width: 100px;
+}
