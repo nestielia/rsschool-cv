@@ -6,11 +6,11 @@
 
 ### Contact information:
 
-**Phone:** +353 85 742 5548
+**Phone:** +353 85 123 4567
 
 **Email:** ernesta.kairyte@yahoo.com
 
-[LinkedIn](https://www.linkedin.com/in/ernestakairyte/)
+[LinkedIn](https://www.linkedin.com/)
 
 ---
 
